@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Sort Puzzle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="sticker.png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Water Sort Puzzle</h1>
+            <div class="game-info">
+                <div class="moves">Movimentos: <span id="moveCount">0</span></div>
+        
+                <div class="status" id="gameStatus">Jogando </div>
+            </div>
+        </header>
+
+        <div class="game-board" id="gameBoard"></div>
+
+        <div class="controls">
+            <button id="newGame" class="btn">Novo Jogo</button>
+            <button id="undoBtn" class="btn" disabled>Desfazer</button>
+        </div>
+
+        <div class="message" id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
